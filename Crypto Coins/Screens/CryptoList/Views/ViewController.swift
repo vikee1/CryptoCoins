@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     }
     
     func setUpView() {
+        view.backgroundColor = .white
         view.addSubview(cryptoListView)
         view.addSubview(filterView)
         
@@ -34,7 +35,7 @@ class ViewController: UIViewController {
             filterView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
             filterView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             filterView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            filterView.heightAnchor.constraint(equalToConstant: 100)
+            filterView.heightAnchor.constraint(equalToConstant: 120)
             ])
         
         NSLayoutConstraint.activate([

@@ -47,9 +47,9 @@ class CryptoFilterView: UIView {
     private func setupTableViewConstraints() {
         NSLayoutConstraint.activate([
             collectionView.topAnchor.constraint(equalTo: self.topAnchor, constant: 12),
-            collectionView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 8),
-            collectionView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -8),
-            collectionView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: 8)
+            collectionView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16),
+            collectionView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16),
+            collectionView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: 16)
         ])
     }
     
